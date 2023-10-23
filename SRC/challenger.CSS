@@ -1,0 +1,96 @@
+ .attribution { font-size: 11px; text-align: center; }
+ .attribution a { color: hsl(228, 45%, 44%); }
+
+.heading1, .heading2{
+    width: 300px;
+    height: 200px;
+}
+.title{
+    text-align: center;
+    color: whitesmoke;
+    font-family:'Hanken Grotesk', sans-serif;
+    margin-bottom: 10px;"
+}
+
+.align{
+    display: flex;
+}
+.heading2{
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    width: 240px;
+    height: 370px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.heading1{
+    background-color: rgb(52, 46, 234); 
+      width: 270px;
+      height: 130px;
+      padding-bottom: 240px;
+      border-radius: 30px;
+}
+.circle{
+    background-color: rgb(72, 39, 208);
+      box-shadow: rgba(17, 12, 46, 0.1) 100px 100px 100px 100px inset;
+      width: 150px;
+      height: 150px;
+      border-radius: 100%;
+      margin-top: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+      margin-left: 60px;
+}
+.topic{
+    font-family: 'Hanken Grotesk', sans-serif;"
+}
+.btn1, .btn2, .btn3, .btn4{
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    margin-top: 5px;
+    border: none;
+}
+.btn1{
+    color: #fb9893;
+    background-color: rgb(255, 246, 245);
+    display: flex;
+    align-items: center;
+}
+.btn2{
+    color: #e4b549; 
+    background: rgb(255, 251, 242);
+    display: flex;
+    align-items: center;
+}
+.btn3{
+    color: #37a286; 
+    background-color: rgb(242, 251, 250);
+    display: flex;
+    align-items: center;
+}
+.btn4{
+    color: #181e8e; 
+    background-color: rgb(243, 243, 253);
+    display: flex;
+    align-items: center;
+}
+.reaction1{
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+    color: aliceblue;
+    background-color: rgb(48, 59, 89);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor:pointer;
+}
+.reaction1:hover{
+    background-color:white;
+    color: black;
+}
